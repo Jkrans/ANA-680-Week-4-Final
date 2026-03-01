@@ -52,6 +52,7 @@ This project demonstrates a full ML deployment pipeline:
 2. **Containerization**
    - Dockerfile
    - Image pushed to Docker Hub
+    https://hub.docker.com/r/jkrans/iris-final
 
 3. **CI/CD**
    - GitHub Actions workflow
