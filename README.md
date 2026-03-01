@@ -72,6 +72,12 @@ This project demonstrates a full ML deployment pipeline:
 https://jk-iris-final-e515cc35fd58.herokuapp.com/
 
 ---
+## AWS SageMaker Studio Lab (Pending)
+
+Studio Lab access has not been approved (requested >1 week ago).  
+I requested on Saturday the 21st, they replied Monday morning saying
+they got the request, but it has still not been approved and it's time
+to turn this assignment in. 
 
 ## Technologies Used
 
