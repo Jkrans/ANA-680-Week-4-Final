@@ -10,8 +10,13 @@ MODEL_PATH = BASE_DIR / "model" / "iris_model.pkl"
 app = Flask(__name__)
 
 artifact = joblib.load(MODEL_PATH)
-model = artifact["model"]
-target_names = artifact["target_names"]
+
+if isinstance(artifact, dict):
+    model = artifact["model"]
+    target_names = artifact.get("target_names", ["setosa", "versicolor", "virginica"])
+else:
+    model = artifact
+    target_names = ["setosa", "versicolor", "virginica"]
 
 
 @app.get("/")
